@@ -56,7 +56,7 @@ public class login extends AppCompatActivity {
                             String[] data = new String[2];
                             data[0] = usernames;
                             data[1] = passwords;
-                            PutData putData = new PutData("https://192.168.1.92/loginsignupApp/login.php", "POST", field, data);
+                            PutData putData = new PutData("https://Enter_Your_local_or_gateway_IP_adress/loginsignupApp/login.php", "POST", field, data);
                             if (putData.startPut()) {
                                 if (putData.onComplete()) {
                                     progressBar.setVisibility(View.GONE);

@@ -65,7 +65,7 @@ public class signup extends AppCompatActivity {
                             data[1] = usernames;
                             data[2] = passwords;
                             data[3] = emails;
-                            PutData putData = new PutData("https://serveradress.../loginsignupApp/signup.php", "POST", field, data);
+                            PutData putData = new PutData("https://Enter_Your_local_or_gateway_IP_adress/loginsignupApp/signup.php", "POST", field, data);
                             if (putData.startPut()) {
                                 if (putData.onComplete()) {
                                     progressBar.setVisibility(View.GONE);
