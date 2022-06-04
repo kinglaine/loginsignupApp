@@ -12,4 +12,3 @@
 - [] This app does not have the "password toggle visibility" button.
 - [] This app also does not have a "forgot password" functionality.
 
-There are many other features that this app may be missing feel free to download the repo and do whatever you want with it go nuts! 😊
